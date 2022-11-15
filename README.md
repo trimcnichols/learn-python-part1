@@ -14,6 +14,41 @@ Click the snake to see the code and explanation about my code
 
 *******************************************
 -->
+<details><summary>:snake: Nested loop</summary>
+<p>
+
+```python
+for i in range(3):
+	for k in range(3):
+		print(f"{i}, {k}") #it will print : row : 0 1 2, colom : 0 1 2
+
+print()
+
+count = 0
+for i in range(3):
+	for k in range(2):
+		count += 1
+
+print(count) # 6
+
+print()
+for i in range(2):
+	print(i)
+	for k in range(3):
+		print(k)
+	print("***") # it will print 0 3X in first colom , second colom 0 1 2, *** then 1 3x, second colom 0 1 2, then ***
+
+print()
+for i in range(1,4):
+	for k in range(i):
+		print(f"{i},{k}") #ffirst colom: 1 3x, 2 3X, 3 3X, second colom : 0 , 1 1, 2 2 2
+
+   
+```
+</p>
+</details>
+
+
 <details><summary>:snake: List</summary>
 <p>
 
